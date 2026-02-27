@@ -1,0 +1,33 @@
+{
+  "name": "@qubit-ltd/vite-plugin-vue-sfc-decorators",
+  "version": "0.1.0",
+  "description": "A small vite plugin to patch Vue SFC <script> to support decorators syntax.",
+  "author": "Haixing Hu",
+  "license": "Apache-2.0",
+  "main": "dist/vite-plugin-vue-sfc-decorators.cjs",
+  "module": "dist/vite-plugin-vue-sfc-decorators.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/vite-plugin-vue-sfc-decorators.cjs",
+      "import": "./dist/vite-plugin-vue-sfc-decorators.mjs"
+    }
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rvf dist",
+    "build": "node esbuild.mjs",
+    "test": "vitest --run",
+    "lint": "eslint ./src"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "eslint": "^8.51.0",
+    "vitest": "^1.0.0"
+  },
+  "packageManager": "yarn@4.12.0"
+}
