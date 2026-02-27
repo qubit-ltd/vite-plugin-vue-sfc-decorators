@@ -6,12 +6,12 @@ can parse decorator syntax (e.g. `@Component`). Designed to be used in monorepos
 Usage:
 
 ```js
-import createVueSfcDecoratorsPlugin from '@qubit-ltd/vite-plugin-vue-sfc-decorators';
+import vueSfcDecoratorsPlugin from '@qubit-ltd/vite-plugin-vue-sfc-decorators';
 
 export default {
   // ...
   plugins: [
-    createVueSfcDecoratorsPlugin({ decoratorsVersion: '2023-11' }),
+    vueSfcDecoratorsPlugin({ decoratorsVersion: '2023-11' }),
   ]
 }
 ```
