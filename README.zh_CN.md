@@ -3,6 +3,7 @@
 [![npm package](https://img.shields.io/npm/v/@qubit-ltd/vite-plugin-vue-sfc-decorators.svg)](https://npmjs.com/package/@qubit-ltd/vite-plugin-vue-sfc-decorators)
 [![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![English Document](https://img.shields.io/badge/Document-English-blue.svg)](README.md)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/qubit-ltd/vite-plugin-vue-sfc-decorators/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/qubit-ltd/vite-plugin-vue-sfc-decorators/tree/master)
 
 [vite-plugin-vue-sfc-decorators] 是一个小型 [Vite] 插件，用于修补内部 [vite:vue] 插件的选项，使 Vue
 单文件组件（SFC）的 `<script>` 块能够解析装饰器语法（例如 `@Component`）。它会从 Vue 插件的 Babel

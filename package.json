@@ -1,6 +1,6 @@
 {
   "name": "@qubit-ltd/vite-plugin-vue-sfc-decorators",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A small vite plugin to patch Vue SFC <script> to support decorators syntax.",
   "author": "Haixing Hu",
   "license": "Apache-2.0",

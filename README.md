@@ -3,6 +3,7 @@
 [![npm package](https://img.shields.io/npm/v/@qubit-ltd/vite-plugin-vue-sfc-decorators.svg)](https://npmjs.com/package/@qubit-ltd/vite-plugin-vue-sfc-decorators)
 [![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![中文文档](https://img.shields.io/badge/文档-中文版-blue.svg)](README.zh_CN.md)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/qubit-ltd/vite-plugin-vue-sfc-decorators/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/qubit-ltd/vite-plugin-vue-sfc-decorators/tree/master)
 
 [vite-plugin-vue-sfc-decorators] is a small [Vite] plugin that patches the internal [vite:vue] plugin
 options so that Vue Single File Component (SFC) `<script>` blocks can parse decorator syntax
