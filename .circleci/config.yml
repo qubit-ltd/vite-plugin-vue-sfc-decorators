@@ -10,6 +10,12 @@ jobs:
       resource_class: small
     steps:
       - checkout
+      - run:
+          name: Setup Yarn 4.x
+          command: |
+            npm install -g corepack
+            corepack enable
+            corepack prepare yarn@4.12.0 --activate
       - node/install-packages:
           pkg-manager: yarn
           with-cache: true
